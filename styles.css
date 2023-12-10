@@ -128,7 +128,7 @@ footer {
 .imageScaleIn, .imageFadeIn,.imageSlideUp {
   opacity: 0;
   z-index: 3;
-  width: 77.5%;left:5%; top:25%;
+  width: 70%;left:30%; top:25%;
   height:40vh;
   display: flex;
   justify-content: center; align-items:center;
