@@ -118,7 +118,7 @@ footer {
   transform:scale(0.25);
   opacity: 0;
 }
-.imageScaleIn img{width: 65%;}
+.imageScaleIn img{width: 50%;}
 
 .imageScaleIn.animate {
   transform: scale(1);  
@@ -140,7 +140,7 @@ footer {
   position: relative;  
   opacity: 0;
 }
-.imageFadeIn img {width: 65%;}
+.imageFadeIn img {width: 50%;}
 .imageFadeIn.animate  {opacity:1; position:fixed;}
 
 
