@@ -5,22 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>Joel Chavez</title>
-    <style>
-      .spacer{
-      height: 80vh;
-      background-color: transparent;
-      }
 
-  </style>
 </head>
 <body>
   <header>
     <div class="headerContainer" >
       <p style="font-size: large;">Welcome | Bienvenue | Bienvenidos</p>
       <div><img src="images/BigBend.png" alt="Headshot Portrait"></div>
-      <div style="height:30vh;"></div>
+      <div style="height:20vh;"></div>
       <div class="arrow-container">
-        <img src="images/arrow.png" alt="down arrow" class="floating">
+        <img style="z-index: 100;" src="images/arrow.png" alt="down arrow" class="floating">
       </div>
       <div style="height:30vh;"></div>
       <div style="height:30vh;"></div>
@@ -43,10 +37,10 @@
       </p>
       <div style="height:10vh;background-color: #fff;"></div>
 
-      <span class="animate-on-scroll imageScaleIn"style="filter: drop-shadow(0mm 1mm 5mm rgba(0, 0, 0,0.5));"><img src="images/west-tx-usa-sat.png"> 
-      </span>
-      <span class="animate-on-scroll imageFadeIn"><img src="images/PecosStar.png"> 
-      </span>
+      <p class="animate-on-scroll imageScaleIn" style="filter: drop-shadow(5px 5px 5px rgba(0, 0, 0,  0.4));"><img src="images/west-tx-usa-sat.png"> 
+      </p>
+      <p class="animate-on-scroll imageFadeIn"><img src="images/PecosStar.png"> 
+      </p>
     </div>
   </section>
   <div class="spacer"></div>
@@ -90,9 +84,11 @@
     </section>
     <section class="section4">
       <div class="scrollContainer">
-        <span class="animate-on-scroll textScaleIn" style="bottom:40%;"> Currently, I am a Ph.D. student in the Department of Government
+        <p class="animate-on-scroll textScaleIn" style="bottom:40%;"> Currently, I am a Ph.D. student in the Department of Government
           at Georgetown University, splitting my time between Washington DC & West Texas.  
-        </span>
+        </p>
+        <p class="animate-on-scroll imageFadeIn" style="z-index:1;"> <img src="images/DC-Georgetown.png" alt="DC Georgetown">
+        </p>
       </div>
       <div class="spacer"></div>
 
@@ -111,10 +107,18 @@
       I earned my bachelors degree from The University of Texas - Austin. I am a former champion rodeo cowboy, a diehard Texas Longhorn, and a solid golf scramble partner.
       <img class="spacer">
     </p-->
+
   </main>
   <footer>
-    <p>&copy; 2023 Joel Chavez. All rights reserved. </p>
-  </footer>
+    <p>&copy; 2023 Joel Chavez. All rights reserved.
+        <p style="width:5%;"></p>  
+        <p><a class="link" href="Home.html">Home</a></p>
+        <p style="width:5%;"></p>  
+        <p><a class="linkz" href="CV.html">Curriculum Vitae</a></p> 
+        <p style="width:5%;"></p>  
+        <p><a class="linkz" href="WorkSamples.html">Work Samples</a> 
+      </p>
+</footer>
   <script src="script.js"></script>
 
   </body>
