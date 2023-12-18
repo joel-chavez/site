@@ -86,13 +86,13 @@ footer {
 }
 
 .link{
-  background-color: white;color:black;
+  background-color: white;color:black; text-decoration: none;
   }
   .linkz{
-    background-color:white; color:grey;
+    background-color:white; color:grey;text-decoration: none;
     }
 /* Set initial state for all sections */
-.linkz:hover{background-color: white;color:black;
+.linkz:hover{background-color: white;color:black;text-decoration:underline;
 }
 .scrollContainer{
   display: flex; flex-direction: column;
@@ -113,7 +113,7 @@ footer {
   opacity: 0.5;
   transition: transform 1s ease-in-out, opacity 1s ease-in-out;
 }
-
+.sec3{text-align: left;align-items: normal;justify-content: left;}
 .textScaleIn.animate {
   transform:scale(1); opacity:1;
 }
